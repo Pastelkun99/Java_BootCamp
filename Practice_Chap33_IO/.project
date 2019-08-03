@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Practice_Chap33_IO</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/sec04/젝스키스(세단어).mp3</name>
+			<type>1</type>
+			<location>C:/Users/PC/Desktop/빅데이터/과제 받은 것들/JAVA 과제/29. IO기반 입출력/자바 파일 입출력/젝스키스(세단어).mp3</location>
+		</link>
+		<link>
+			<name>src/sec03/exam03_file_output_stream/house.jpg</name>
+			<type>1</type>
+			<location>C:/Users/PC/Desktop/새 폴더/house.jpg</location>
+		</link>
+		<link>
+			<name>src/sec03/exam03_file_output_stream/김연아.jpg</name>
+			<type>1</type>
+			<location>C:/Users/PC/Desktop/새 폴더/김연아.jpg</location>
+		</link>
+		<link>
+			<name>src/sec_verify/exam11/img.jpg</name>
+			<type>1</type>
+			<location>C:/Users/PC/Desktop/빅데이터/과제 받은 것들/JAVA 과제/29. IO기반 입출력/자바 파일 입출력/img.jpg</location>
+		</link>
+	</linkedResources>
+</projectDescription>
