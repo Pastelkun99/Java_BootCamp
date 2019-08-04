@@ -9,12 +9,11 @@ public class ReferenceParamArrayExample {
 		System.out.println("정렬 전 배열 값입니다.");
 		ReferenceParamArray.printArr(arr);
 		
-		System.out.println("");
-		
+		System.out.println();		
 		System.out.println("정렬 후 배열 값입니다.");
 		ReferenceParamArray.sortArr(arr);
 		
-		System.out.println("");
+		System.out.println();
 		
 		System.out.println("배열의 합입니다.");
 		System.out.println("sum = " + ReferenceParamArray.Arrsum(arr));

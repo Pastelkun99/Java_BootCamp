@@ -2,11 +2,10 @@ package sec_verify01;
 
 public class Circle {
 
-	int radius; 		
-	String name; 	
+	int radius;
+	String name;
 
-	public double getArea() 
-	{ 
-		return 3.14*radius*radius;
+	public double getArea() {
+		return 3.14 * radius * radius;
 	}
 }

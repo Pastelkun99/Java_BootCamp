@@ -19,6 +19,9 @@ public class SamsungHandPhoneExample {
 		else {
 			System.out.println(sam);	
 		}
+		
+		// 올바른 입력값이 아니면 객체의 각 멤버변수에 대입되지 않도록 설계합니다.
+		// 이는 프로그래밍에서 객체에 들어가는 값을 점검하여 정상적인 작동을 보장할 수 있게 됩니다.
 	}
 
 }

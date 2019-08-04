@@ -5,8 +5,7 @@ public class GoodsExample {
 	public static void main(String[] args) {
 		
 		Goods goods = new Goods();
-		
-		System.out.println(goods);
+		System.out.println(goods.toString());
 
 	}
 

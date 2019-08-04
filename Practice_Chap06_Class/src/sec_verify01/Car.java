@@ -15,13 +15,15 @@ public class Car {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("수정할 속도는? : ");
 		nowspeed = scanner.nextInt();
-		if(nowspeed > 350) {
-			System.out.println("엔진 과열 위험");
-			System.out.print("수정할 속도는? : ");
-			nowspeed = scanner.nextInt();
+		if(nowspeed > maxspeed) {
+			System.out.println("엔진 과열 위험 속도를 줄여주세요.");
+			System.out.println(this.toString());
+			speedcon();
+		} else {
+			System.out.println(this.toString());
+			speedcon();
 		}
-		scanner.close();
-				
+		
 	}
 	@Override
 	public String toString() {

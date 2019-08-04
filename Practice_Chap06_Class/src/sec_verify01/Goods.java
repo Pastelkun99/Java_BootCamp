@@ -2,7 +2,7 @@ package sec_verify01;
 
 public class Goods {
 
-	String name = "Nikon";
+	String name = "Nikon Camera";
 	int price = 400000;
 	int numberofStock = 30;
 	int sold = 50;

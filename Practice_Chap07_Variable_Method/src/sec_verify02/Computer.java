@@ -6,10 +6,9 @@ public class Computer {
 		
 		int sum = 0;
 		
-		for(int i=0; i < values.length; i++)
-			
+		for (int i = 0; i < values.length; i++)
 			sum += values[i]; // values[i]의 값을 지정
-			return sum;
-			
+		return sum;
+
 	}
 }

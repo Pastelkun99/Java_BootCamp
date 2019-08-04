@@ -8,7 +8,8 @@ public class CarArrayExample {
 		int i = 0;
 		
 		for(i=0; i<cArr.length; i++) {
-			cArr[i] = new Car(); //Attach 작업
+			cArr[i] = new Car(); 
+			// 배열에 새로운 객체를 대입시키는 작업을 Attach 작업이라고 합니다.
 			System.out.println("cArr[" + i + "] 인스턴스 생성");
 		}
 		

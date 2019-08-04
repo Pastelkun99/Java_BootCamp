@@ -11,9 +11,9 @@ public class PersonExample {
 		System.out.println(p1.ssn);
 		System.out.println(p1.name);
 		
-		//p1.nation = "usa";			//예외이유?
-		//p1.ssn = "654321-7654321";	//예외이유?
-		
+		//p1.nation = "usa";			 //예외이유?
+		//p1.ssn = "654321-7654321";	 //예외이유?
+
 		p1.name = "을지문덕";
 
 	}
