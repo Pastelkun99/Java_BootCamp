@@ -8,11 +8,11 @@ public class Car {
 	
 	// 운전하는 기능
 	void drive() {
-		System.out.println("drive, Brrrr~");
+		System.out.println("자동차가 앞으로 가고 있습니다.");
 	}
 	
 	//멈추는 기능
 	void stop() {
-		System.out.println("stop!!!");
+		System.out.println("자동차가 멈춥니다.");
 	}
 }

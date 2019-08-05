@@ -5,24 +5,22 @@ public class MountainBike extends Bicycle {
 	String frame;
 	int gear;
 	String money;
-	
+
 	public MountainBike(int id, String brand) {
 		super(id, brand);
 		prtinfo();
 	}
-	
+
 	public void prtinfo() {
-		if(super.brand.equals("Scott")) {
+		if (super.brand.equals("Scott")) {
 			this.gear = 30;
 			this.frame = "Ä«º»";
 			this.money = "8Ãµ¸¸";
-		}
-		else if(super.brand.equals("Giant")) {
+		} else if (super.brand.equals("Giant")) {
 			this.gear = 27;
 			this.frame = "¾Ë¹Ì´½";
 			this.money = "30¸¸";
-		}
-		else if(super.brand.equals("Lespo")) {
+		} else if (super.brand.equals("Lespo")) {
 			this.gear = 18;
 			this.frame = "Ã¶";
 			this.money = "5¸¸";

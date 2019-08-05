@@ -5,15 +5,14 @@ public class HankookTire extends Tire {
 	public HankookTire(String location, int maxRotation) {
 		super(location, maxRotation);
 	}
-	
+
 	@Override
 	public boolean roll() {
 		++accumulateRotation;
-		if(accumulateRotation < maxRotation) {
-			System.out.println(location + " HankookTire 수명 : " + (maxRotation-accumulateRotation) + "회");
+		if (accumulateRotation < maxRotation) {
+			System.out.println(location + " HankookTire 수명 : " + (maxRotation - accumulateRotation) + "회");
 			return true;
-		}
-		else {
+		} else {
 			System.out.println(location + " HankookTire 빵꾸");
 			return false;
 		}

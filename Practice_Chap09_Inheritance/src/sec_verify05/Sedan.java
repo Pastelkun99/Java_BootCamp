@@ -3,18 +3,16 @@ package sec_verify05;
 public class Sedan extends Car {
 
 	int seatNum;
-	
+
 	public int getseatNum() {
 		return this.seatNum;
 	}
-	
+
 	@Override
 	public String toString() {
 		super.speed = 300;
 		super.color = "노랑색";
 		this.seatNum = 5;
-		return "승용차 속도는 " + super.getSpeed() + 
-				"km, 색깔은 " + super.getcolor() +
-				" 좌석은 " + this.getseatNum() + "개 입니다.";
+		return "승용차 속도는 " + super.getSpeed() + "km, 색깔은 " + super.getcolor() + " 좌석은 " + this.getseatNum() + "개 입니다.";
 	}
 }
