@@ -3,14 +3,14 @@ package sec01_exam_contentSender;
 public class letterSender extends ContentSender {
 
 	String content;
-	//생성자
-	
+	// 생성자
+
 	public letterSender(String title, String nm, String content) {
 		super(title, nm);
 		this.content = content;
 	}
-	
-	//조상클래스의 추상메서드인 sendMsg() 상속받아 오버라이딩한다.
+
+	// 조상클래스의 추상메서드인 sendMsg() 상속받아 오버라이딩 합니다.
 	@Override
 	public void sendMsg(String receipient) {
 		System.out.println("제목 = " + this.title);

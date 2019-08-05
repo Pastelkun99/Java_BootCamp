@@ -6,12 +6,11 @@ public class Car {
 	Tire frontRightTire;
 	Tire backLeftTire;
 	Tire backRightTire;
-	
+
 	public void run() {
 		frontleftTire = new HankookTire();
 		frontleftTire.roll();
 		backLeftTire = new KumhoTire();
 		backLeftTire.roll();
-		
 	}
 }

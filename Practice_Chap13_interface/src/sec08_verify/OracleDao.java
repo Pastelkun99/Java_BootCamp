@@ -22,5 +22,4 @@ public class OracleDao implements DataAccessObject {
 		System.out.println("Oracle DB에서 삭제");
 	}
 
-	
 }

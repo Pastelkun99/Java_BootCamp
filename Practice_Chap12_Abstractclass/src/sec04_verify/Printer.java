@@ -9,7 +9,7 @@ public abstract class Printer {
 	private int type;
 	protected int numberOfPrinted;
 	protected int numberOfPaper;
-	
+
 	public Printer(String modelName, String manufacturer, int numberOfPrinted, int numberOfPaper) {
 		this.modelName = modelName;
 		this.manufacturer = manufacturer;
@@ -48,7 +48,7 @@ public abstract class Printer {
 	public int getNumberOfPrinted() {
 		return numberOfPrinted;
 	}
-	
+
 	abstract public boolean print();
-	
+
 }

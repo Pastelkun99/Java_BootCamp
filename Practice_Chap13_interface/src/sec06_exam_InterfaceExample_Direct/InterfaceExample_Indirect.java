@@ -6,8 +6,8 @@ public class InterfaceExample_Indirect {
 
 		A a = new A();
 		a.method(new B());
-		
-		//인터페이스 필드의 다형성
+
+		// 인터페이스 필드의 다형성
 		I i = new B();
 		i.methodB();
 	}

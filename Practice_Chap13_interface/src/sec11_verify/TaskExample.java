@@ -4,9 +4,8 @@ public class TaskExample {
 
 	public static void main(String[] args) {
 
-		
 		System.out.println("☆☆☆ 나의 우선순위별 업무리스트 ☆☆☆");
-		
+
 		System.out.printf("일의 이름\t소요시간(분)\t우선순위\n");
 		Task task1 = new Task("영어공부", 30);
 		task1.setPriority(3);

@@ -1,6 +1,6 @@
 package sec04_verify;
 
-public class SmartPhone extends PDA implements MobilePhone, MP3	{
+public class SmartPhone extends PDA implements MobilePhone, MP3 {
 
 	@Override
 	public void play() {
@@ -29,13 +29,13 @@ public class SmartPhone extends PDA implements MobilePhone, MP3	{
 
 	@Override
 	public void receiveSMS() {
-		System.out.println("문자를 받습니다.");		
+		System.out.println("문자를 받습니다.");
 	}
 
 	public void scheduler() {
 		System.out.println("일정관리를 시작합니다.");
 	}
-	
+
 	public void applicationManager() {
 		System.out.println("해당 앱을 설치 및 삭제를 진행합니다.");
 	}

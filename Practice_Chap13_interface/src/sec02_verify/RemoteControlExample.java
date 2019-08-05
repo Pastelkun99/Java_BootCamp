@@ -6,7 +6,7 @@ public class RemoteControlExample {
 
 		RemoteControl rc = new Television();
 		RemoteControl rc2 = new Audio();
-		
+
 		rc.turnOn();
 		rc.setVolume(10);
 		rc.setVolume(0);
@@ -14,7 +14,9 @@ public class RemoteControlExample {
 		rc.setMute(false);
 		rc.turnOff();
 		RemoteControl.changeBattery();
+		
 		System.out.println();
+		
 		rc2.turnOn();
 		rc2.setVolume(10);
 		rc2.setVolume(0);

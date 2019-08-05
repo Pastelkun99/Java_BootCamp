@@ -9,7 +9,7 @@ public class Taxi implements Vehicle {
 
 	@Override
 	public void stop() {
-		System.out.println("≈√Ω√∞° ∏ÿ√‰¥œ¥Ÿ.");		
+		System.out.println("≈√Ω√∞° ∏ÿ√‰¥œ¥Ÿ.");
 	}
 
 }
